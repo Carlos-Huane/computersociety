@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap'); */
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.experience {
+    padding: 50px 10%;
+    background-color: black;
+    color: white;
+}
+.experiencieTop {
+    font-weight: 400;
+    font-size: 21px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+.line {
+    margin-top: 0;
+    padding-top: 0;
+    background-image: url('../images/Line\ 4.png');
+    width: 60px; /* Ancho de la imagen */
+    height: 2px; /* Alto de la imagen */
+}
+.experienciePrincipal {
+   margin-right: 0px;
+   margin-bottom: 20px;
+}
+.experienceTextPrincipal {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60.23px;
+}
+.experienceTextPrincipal span {
+    color: #6D95FC;
+}
+.experienceButton {
+    border-color: #6D95FC;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 8px 18px;
+}
+
+.experienceInfo {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.vector {
+    background-image: url('../images/Vector.png');
+    width: 21px; 
+    height: 21px; 
+    display: flex;
+    margin-right: 10px;
+}
+.experienceTextSecondary {
+    line-height: 34.26px;
+}
+.experienceInfo div {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px;
+    align-items: center;
+}
+
+@media(min-width: 1200px) {
+    .experienceTextPrincipal {
+        font-size: 55px;
+        line-height: 60.23px;
+    }
+}
+@media(min-width:768px){
+    /* Modificar los tamaños de textos para cuando es pantalla grande (aqui es pantalla grande, arriba pantalla pequeña) */
+    .experience{
+        display:flex;
+        flex-direction: row;
+    }
+    .experienceTextPrincipal {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 50.23px;
+    }
+    .experienciePrincipal {
+        margin-bottom: 0px;
+     }
+}
